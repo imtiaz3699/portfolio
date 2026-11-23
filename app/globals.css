@@ -52,3 +52,34 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 } */
+.custom-checkbox .ant-checkbox-inner {
+  border: 1px solid #ef4444 !important;
+}
+.custom-checkbox:hover .ant-checkbox-inner {
+  border-color: #ef4444 !important;
+}
+.student-table .ant-table-thead > tr > th {
+  background-color: #06496E !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+/* Remove default hover background */
+.student-table .ant-table-thead > tr > th:hover {
+  background-color: #1f2937 !important;
+}
+.student-table {
+  width: 100%;
+}
+.student-table .ant-table {
+  width: 100%;
+}
+.student-table .ant-table-container {
+  width: 100%;
+}
+.student-table .ant-table-tbody > tr > td {
+  border-right: 1px solid #d9d9d9 !important;
+}
+
+.ant-modal-container{
+  background-color:#06496E !important;
+}
